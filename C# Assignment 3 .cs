@@ -5,9 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Assignment_3
-    //==========studentmarks====================
+  
 internal class student
 {
+    //Student marks
     {
     int rollno;
     String name;
@@ -66,10 +67,9 @@ internal class student
     }
 }
 
-//======================car details===========================
-
 internal class Car
 {
+    //car details
     int car_no;
     string car_name;
     string car_type;
@@ -95,10 +95,9 @@ internal class Car
 
     }
 }
-
-//============================bank loan ==========================
 internal class bank
 {
+    //bank loan
     double interestRate;
     public void loanCalculator(double loanamt)
     {
@@ -116,17 +115,17 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        //===============student=============
+        //student
         Student.displayResult();
-        Student student = new Student(23, "konda", "mca", "3-2", "computers");
+        Student student = new Student(23, "Swaminatham", "B.tech", "3-2", "Mechanical");
         Student.displayData();
 
-        //==============car=============
+        //car
         Car car = new Car(123, "ferrai", "sports", 5000000);
         car.showDetails();
         Car car2 = new Car(20000000);
 
-        //=============bank===============
+        //bank
         bank bank = new bank();
         Console.WriteLine("\nenter the loan amount: ");
         bank.loanCalculator(Convert.ToInt32(Console.ReadLine()));
