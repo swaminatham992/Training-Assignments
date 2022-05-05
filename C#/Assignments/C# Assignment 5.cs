@@ -10,7 +10,7 @@ namespace Assignment_5
     {
         class Bank
         {
-            int money = 20000;
+            int money = 3000;
             String acc_name = "raj";
             String acc_num;
             static String bank_name = "IndusInd";
