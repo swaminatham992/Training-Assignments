@@ -46,11 +46,11 @@ Group by job;
 SELECT MAX(sal) AS "MAX Sal" ,MIN(sal) AS "MIN sal" from Emp1;
 
 select ename , sal from EMP1
-where job = 'Analyst' and deptno=20
+where job = 'Analyst' and dentno=20
 order by ename asc;
 
-SELECT job ,deptno, SUM(sal) As "Total Sal" from Emp1
-Group by Job,deptno;
+SELECT job ,dentno, SUM(sal) As "Total Sal" from Emp1
+Group by Job,dentno;
 
 Select sal from Emp1
 Where ename In('MILLER','SMITH');
