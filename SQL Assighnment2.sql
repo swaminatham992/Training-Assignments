@@ -42,12 +42,12 @@ select sum(sal) from emp1;
 select avg(sal*12) from emp1;
 
 --13.Select the name, job, salary, department number of all employees except Salesman from department number 30.
-select ename,job,sal,deptno from emp1 where ename!='Salesman' and deptno=30;
+select ename,job,sal,dentno from emp1 where ename!='Salesman' and dentno=30;
 
 
 --14.List unique departments of the emp table.
-select deptno from emp1 group by deptno;
+select dentno from emp1 group by dentno;
 
 --15.List the name and salary of employees who earn more than 1500 and are in department 10 or 30.
 --Lable the columns employee and monthly salary respectively.
-select ename,sal from emp1 where sal>1500 and deptno in (10,30);
+select ename,sal from emp1 where sal>1500 and dentno in (10,30);
