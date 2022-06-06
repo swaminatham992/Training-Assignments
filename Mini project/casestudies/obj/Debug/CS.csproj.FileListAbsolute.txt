@@ -1,0 +1,7 @@
+C:\Assignments\CS\CS\bin\Debug\CS.exe.config
+C:\Assignments\CS\CS\bin\Debug\CS.exe
+C:\Assignments\CS\CS\bin\Debug\CS.pdb
+C:\Assignments\CS\CS\obj\Debug\CS.csproj.AssemblyReference.cache
+C:\Assignments\CS\CS\obj\Debug\CS.csproj.CoreCompileInputs.cache
+C:\Assignments\CS\CS\obj\Debug\CS.exe
+C:\Assignments\CS\CS\obj\Debug\CS.pdb
